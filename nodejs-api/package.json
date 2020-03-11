@@ -18,5 +18,7 @@
     "mongoose": "^5.8.4",
     "websocket": "^1.0.31"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
