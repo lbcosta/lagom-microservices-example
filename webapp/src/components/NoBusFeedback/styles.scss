@@ -1,0 +1,52 @@
+@import "../../defaults.scss";
+
+@keyframes bus-icon-animation {
+  0% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes x-icon-animation {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  span {
+    margin-left: 10px;
+  }
+
+  .icon {
+    display: inline;
+    .bus-icon {
+      position: absolute;
+      animation: bus-icon-animation 2s infinite alternate;
+    }
+
+    .x-icon {
+      animation: x-icon-animation 2s infinite alternate;
+    }
+  }
+}
