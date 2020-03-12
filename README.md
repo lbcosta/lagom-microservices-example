@@ -1,3 +1,19 @@
+<p align="center">
+  <h2 align="center">⚠️ Informações sobre a Implementação do Desafio ⚠️</h2>
+</p>
+
+1. Link do screencast: https://www.youtube.com/watch?v=lb6ghJL0rMQ
+2. Propostas escolhidas:
+    1. **React**: Escolhida a Proposta 1 - Feedback no painel
+    2. **Node**: Escolhida a Proposta 1 - Rota com a versão da API SPTrans Olho Vivo
+    
+<br/>
+
+> **Muito obrigado, Insight Lab, pela oportunidade. Todo desafio nos faz crescer.**
+
+---
+
+
 # Aplicação Demo
 
 Esta aplicação foi criada com o intuito de demonstrar as diferenças e características entre aplicações monolíticas e as que seguem a arquitetura de microsserviços, representadas respectivamente pelas tecnologias [Node.js](https://nodejs.org/en/) e [Lagom](https://www.lagomframework.com/) em sua versão para a linguagem Scala.
